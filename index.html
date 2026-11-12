@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>Yolinta's Spectacle</title>
+        <link href = "resources/css/style.css" rel = "stylesheet" type = "text/css">
+        <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel = "stylesheet">
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel = "stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1 id = "title">Yolinta's Website</h1>
+            <div class = "links">
+                <p><a href = "about.html">About Me</a></p>
+                <p><a href = "goal.html">Goal</a></p>
+                <p><a href = "interest.html">Interest</a></p>
+            </div>
+            <ul class = "menu">
+                <li><a class = "menuItem">About Me</a></li>
+                <li><a class = "menuItem">Goal</a></li>
+                <li><a class = "menuItem">Interest</a></li>
+            </ul>
+            <button class = "hamburger">
+                <i class = "menuIcon material-icons">menu</i>
+                <i class = "closeIcon material-icon">close</i>
+            </button>
+        </header>
+
+        <div class = "sectionOne">
+            <div class = "introduction">
+                <h2>Welcome to Yolinta's website!</h2>
+                <p>The purpose of the website is to showcase this persona's achievements and goals in the future.</p>
+                <p>Yolinta is no stranger to coding, having a bit of history with Python and Java.</p>
+                <p>Now she's trying to learn other languages like HTML, CSS, and JavaScript.</p>
+                <p>She's been learning HTML for about 2 years now and still has much to learn.</p>
+            </div>
+
+            <div id = "drawing">
+                <img src = "resources/images/IMG_3297.JPG" alt = "Drawing of a girl"/>
+            </div>
+        </div>
+
+        <div class = "sectionTwo">
+            <h2>With all that coding, Yolinta has a lot of free time on her hands!</h2>
+            <h2>Feel free to shoot an email during any of these times: anajahouston@gmail.com</h2>
+            <h2>Here's a schedule for Yolinta's free time:</h2>
+            <div class = "schedule">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td>9:00AM</td>
+                            <td>9:00AM</td>
+                            <td>9:00AM</td>
+                            <td>12:00PM</td>
+                            <td>10:00AM</td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td>4:00PM</td>
+                            <td>4:00PM</td>
+                            <td>4:00PM</td>
+                            <td>4:00PM</td>
+                            <td>5:00PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h3 id = "setting">Here's a list of past projects that Yolinta created and/or replicated over the years:</h3>
+        <div class = "sectionThree">
+            <img src = "resources/images/Tripstar.png" alt = "Tripstar Website"/>
+            <p>A non-interactive website called Tripstar that showcases various adventures for the visitors.</p>
+            <p>The website was built using HTML and CSS.</p>
+
+            <img src = "resources/images/Website Style Guide.png" alt = "Style Study Guide"/>
+            <p>A recreation of web study guide already present on the internet. The Study Guide was practice for both HTML and CSS.</p>
+            <p>This was built using HTML and CSS but not JavaScript.</p>
+
+            <img src = "resources/images/Small Project about Yolinta.png" alt = "Non-Interactive Website"/>
+            <p>A non-interactive simple website about Yolinta that talks about the goals in regards to learning how to code with HTML and CSS</p>
+            <p>The site was once again built with HTML and CSS, but not JavaScript.</p>
+        </div>
+
+        <div class = "sectionFour">
+            <h3>Achievements</h3>
+            <p>This persona is the alter ego for the creator online. The achievements that Yolinta has made is:</p>
+            <ul>
+                <li>Worked for almost 2 years as a Search Quality Rater.</li>
+                <li>Collaborated with others for a project about data structures: Organizing data based on accessibility.</li>
+                <li>Have a bit of knowledge with Microsoft Office 365: Word, PowerPoint, and Excel.</li>
+            </ul>
+        </div>
+
+        <p id = "other">Yolinta has other interest as well check out the <a href = "interest.html">interest</a> tab!</p>
+
+        <footer>
+            <div class = "conclusion">
+                <div class = "lightDarkMode">
+                    <p id = "label">Light/Dark Mode:</p>
+                    <input type = "checkbox" class = "lightDarkMode_toggle" id = "switch" name = "mode">
+                    <label for = "switch">Toggle</label>
+                </div>
+                <p>contact us</p>
+                <p>policy review</p>
+                <p id = "copyright">©Yolinta</p>
+            </div>
+        </footer>
+
+        <script src = "index.js"></script>
+    </body>
+</html>
